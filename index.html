@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ju Hair Salon</title>
+  <title>TAOS Hairspace</title>
   <!-- Bootstrap 5 (no build) -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <!-- Bootstrap Icons -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
   <style>
     /* Minimal custom styles */
-    :root { --brand: #111827; --accent: #e11d48; --nav-bg:#ece2d1; }
+    :root { --brand: #111827; --accent: #e11d48; --nav-bg:#d9d3c8; }
     .nav-cream{ background: var(--nav-bg); border-bottom:1px solid rgba(0,0,0,.08); }
     .navbar-brand{ text-transform: uppercase; letter-spacing:.35em; font-weight:700; font-size: .95rem; line-height:1.1; }
     /* Gallery section background (custom) */
@@ -50,7 +50,7 @@
     .hero-address{ text-transform:uppercase; font-weight:700; margin-top:1.5rem; }
       .hero-separator{ height:56px; background:#000; width:100%; }
       /* Brand partners carousel */
-    .band-black{background:#0b0b0b;color:#fff;text-align:center;padding:.85rem 0;text-transform:uppercase;letter-spacing:.08em;font-weight:800;}
+    .band-black{background:#8b775f;color:#fff;text-align:center;padding:.85rem 0;text-transform:uppercase;letter-spacing:.08em;font-weight:800;}
     .brand-carousel .carousel-item{height:721px;}
     .brand-carousel .carousel-inner{width:100vw;margin-left:calc(-50vw + 50%);margin-right:calc(-50vw + 50%);}
     /* Mobile carousel - smaller height for better mobile experience */
@@ -68,7 +68,7 @@
     /* Instagram feed grid */
     .ig-section{background:#fff;}
     /* Gallery section background (custom) */
-    .gallery-section{ background: #EBEBE1; }
+    .gallery-section{ background: #91917c; }
     .ig-handle{font-weight:800;text-transform:uppercase;letter-spacing:.08em;text-decoration:underline;color:inherit}
     .ig-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:1rem}
     @media(max-width:1200px){.ig-grid{grid-template-columns:repeat(4,1fr)}}
@@ -123,7 +123,7 @@
   /* When scrolling to the footer, leave a margin equal to navbar height (~72px) */
   #footer { scroll-margin-top: 80px; }
   /* Prices container for centered image */
-  .price-wrap{ background-color:#F0F0F0; display:flex; align-items:center; justify-content:center; }
+  .price-wrap{ background-color:#D8D8D8; display:flex; align-items:center; justify-content:center; }
   .price-wrap img{ width:75%; height:75%; object-fit:contain; border-radius:0; box-shadow:none; display:block; }
   /* Size chart has an independent wrapper so its sizing/layout can differ from prices */
   .size-wrap{ background-color:#F0F0F0; display:flex; align-items:center; justify-content:center; }
@@ -142,12 +142,12 @@
   .size-image-vi{ width:100%; max-width:442px; max-height:442px; height:auto; object-fit:contain; border-radius:0; box-shadow:none; display:block; filter: saturate(.95) contrast(1.02); }
   /* Panels that hold language-specific price images; each can have its own background color */
   .price-panel{ width:100%; display:flex; align-items:center; justify-content:center; padding:2rem 0; overflow: visible; }
-  .price-panel-en{ background-color: #F0F0E4; }
-  .price-panel-vi{ background-color: #EBEBE1; }
+  .price-panel-en{ background-color: #D8D8D8; }
+  .price-panel-vi{ background-color: #D8D8D8; }
   /* Size chart panels reuse same spacing/behaviour but allow different background if desired */
   .size-panel{ width:100%; display:flex; align-items:center; justify-content:center; padding:2rem 0; overflow: visible; }
-  .size-panel-en{ background-color: #FCFCF2; }  
-  .size-panel-vi{ background-color: #FCFCF2; }
+  .size-panel-en{ background-color: #3f493c; }  
+  .size-panel-vi{ background-color: #3f493c; }
   /* Mobile Vietnamese price images container - center alignment */
   #price-mobile-vi{ display:flex; flex-direction:column; align-items:center; justify-content:center; }
   /* Mobile Vietnamese price images - full width override */
@@ -192,12 +192,12 @@
         <div class="hero-eyebrow" data-i18n="hero.eyebrow">Our Studio</div>
         <h1 class="hero-title" data-i18n="hero.title">Behind the Chair</h1>
         <div class="hero-kicker" data-i18n="hero.kicker">Hair Salon & Studio</div>
-        <p class="hero-address mb-0" data-i18n="hero.addr1">317 Lý Tự Trọng, Phường Bến Thành, Quận 1,</p>
+        <p class="hero-address mb-0" data-i18n="hero.addr1">362 Nguyễn Văn Lượng, Phường An Hội Đông (F.16 Quận Gò Vấp cũ),</p>
         <p class="hero-address"><span data-i18n="hero.addr2">Hồ Chí Minh, Vietnam</span>
           <img id="hero-flag" src="https://flagcdn.com/us.svg" width="20" alt="English" title="English" style="vertical-align:middle; margin-left:8px;">
         </p>
         <div class="d-flex gap-2 mt-3">
-          <a class="btn btn-accent text-white" href="https://www.facebook.com/juhair0923322333?mibextid=uzlsIk" target="_blank" rel="noopener"><i class="bi bi-calendar-event me-2"></i><span data-i18n="cta.bookFull">Book an appointment</span></a>
+          <a class="btn btn-accent text-white" href="https://www.facebook.com/share/17Dmj5yT7G/?mibextid=wwXIfr" target="_blank" rel="noopener"><i class="bi bi-calendar-event me-2"></i><span data-i18n="cta.bookFull">Book an appointment</span></a>
           <a class="btn btn-outline-light" href="#prices"><i class="bi bi-cash-coin me-2"></i><span data-i18n="cta.viewPrices">View prices</span></a>
         </div>
       </div>
@@ -229,36 +229,31 @@
   </div>
 
 
-
-  <!-- Black separator bar between hero and content -->
    <div class="band-black"><div class="container"><div class="h5 m-0" data-i18n="brands.title">Price List</div></div></div>
 
-  <!-- Prices image: full-bleed. Place your image at assets/images/... -->
   <section id="prices" class="section p-0">
     <div class="container-fluid p-0 price-wrap" style="min-height:0px;">
-      <!-- Language-specific price images: show only the active language image -->
+
         <div id="price-panel-en" class="price-panel price-panel-en" style="display:none;">
-          <img src="assets/images/z6918537879453_4a2bd9b6e7ed998fc064e5000d3c1bb8.jpg" alt="Price list (English)" id="price-image-en" class="price-image-en" aria-hidden="true" />
+          <img src="assets/images/price_eng.jpg" alt="Price list (English)" id="price-image-en" class="price-image-en" aria-hidden="true" />
         </div>
         <div id="price-panel-vi" class="price-panel price-panel-vi" style="display:none;">
-          <!-- Desktop Vietnamese price image -->
-          <img src="assets/images/banggia-ngang-01.png" alt="Bảng giá (Tiếng Việt)" id="price-image-vi-desktop" class="price-image-vi d-none d-md-block" aria-hidden="true" />
-          <!-- Mobile Vietnamese price images -->
+
+          <img src="assets/images/price_eng.jpg" alt="Bảng giá (Tiếng Việt)" id="price-image-vi-desktop" class="price-image-vi d-none d-md-block" aria-hidden="true" />
+          <!--
           <div id="price-mobile-vi" class="d-block d-md-none">
             <img src="assets/images/price_mobile_1.png" alt="Bảng giá di động 1 (Tiếng Việt)" class="price-image-vi" />
             <img src="assets/images/price_mobile_2.png" alt="Bảng giá di động 2 (Tiếng Việt)" class="price-image-vi" />
             <img src="assets/images/price_mobile_3.png" alt="Bảng giá di động 3 (Tiếng Việt)" class="price-image-vi" />
-          </div>
+          </div>-->
         </div>
     </div>
   </section>
 
 
-
   <div class="band-black"><div class="container"><div class="h5 m-0" data-i18n="brands.tit">Size Chart</div></div></div>
   <section id="size-chart" class="section p-0">
     <div class="container-fluid p-0 size-wrap" style="min-height:0px;">
-      <!-- Language-specific size chart images: show only the active language image -->
         <div id="size-panel-en" class="size-panel size-panel-en" style="display:none;">
           <img src="assets/images/hair-size-en.png" alt="Size chart (English)" id="size-image-en" class="size-image-en" aria-hidden="true" />
         </div>
@@ -277,11 +272,11 @@
       <div class="row g-4">
         <div class="col-lg-6">
           <div class="d-flex flex-column h-100 justify-content-center">
-            <h2 class="h2 mb-4" data-i18n="contact.title">Ju Hair Studio</h2>
+            <h2 class="h2 mb-4" data-i18n="contact.title">TAOS Hairspace</h2>
             <p class="text-muted fs-5 mb-4" data-i18n="contact.subtitle">We are in the city center with easy parking.</p>
             <div class="d-flex flex-column gap-3">
               <a
-    href="https://www.facebook.com/juhair0923322333?mibextid=uzlsIk"
+    href="https://www.facebook.com/share/17Dmj5yT7G/?mibextid=wwXIfr"
     target="_blank"
     rel="nofollow"
     class="btn btn-accent text-white py-2 fs-5"
@@ -292,7 +287,7 @@
               <div class="fs-5.5"><i class="bi bi-telephone me-3"></i><a id="hotline" href="tel:0923322333">0923322333</a></div>
               <div class="d-flex gap-4 mt-3 align-items-center">
                 <a id="map-link" class="link-primary fs-4.5" target="_blank" rel="noopener" href="https://maps.google.com/?q=317+Ly+Tu+Trong,+Ben+Thanh,+Quan+1,+Ho+Chi+Minh,+Vietnam"><i class="bi bi-map me-2"></i><span data-i18n="contact.openMap">Open in Google Maps</span></a>
-                <a id="facebook-link" class="link-primary fs-5" href="https://www.facebook.com/juhair0923322333?mibextid=uzlsIk" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                <a id="facebook-link" class="link-primary fs-5" href="https://www.facebook.com/share/17Dmj5yT7G/?mibextid=wwXIfr" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
               </div>
               <div class="fs-5.5">© <span id="year"></span> <span data-i18n="brand">JU HAIR SALON</span></div>
             </div>
@@ -316,11 +311,11 @@
     const CONFIG = {
       LANGUAGE_DEFAULT: 'en', // 'en' or 'vi'
       USE_PRICE_IMAGE: true,   // true => show image instead of table (image shown by default)
-      HOTLINE: '0985678988',
-      ADDRESS: '317 Lý Tự Trọng, Phường Bến Thành, Quận 1, Hồ Chí Minh, Vietnam',
-      MAP_QUERY: '317+Ly+Tu+Trong,+Ben+Thanh,+Quan+1,+Ho+Chi+Minh,+Vietnam',
+      HOTLINE: '0923322333',
+      ADDRESS: '362 Nguyễn Văn Lượng, Phường An Hội Đông (F.16 Quận Gò Vấp cũ),',
+      MAP_QUERY: '362+Nguyễn+Văn+Lượng,+Phường+An+Hội+Đông+,+Hồ+Chí+Minh,+Vietnam',
       BOOKING_EMAIL: 'booking@example.com', // used for mailto fallback
-      FACEBOOK_URL: 'https://www.facebook.com/juhair0923322333?mibextid=uzlsIk',
+      FACEBOOK_URL: 'https://www.facebook.com/share/17Dmj5yT7G/?mibextid=wwXIfr',
     };
 
     // ====== SAMPLE CONTENT DATA ======
@@ -330,10 +325,16 @@
       'assets/images/Gallery/1.2.jpg',
       'assets/images/Gallery/1.4.jpg',
       'assets/images/Gallery/1.3.jpg',
-      'assets/images/Gallery/1.6.jpg'
+      'assets/images/Gallery/1.6.jpg',
+      'assets/images/Gallery/1.7.jpg',
+      'assets/images/Gallery/1.8.jpg',
+      'assets/images/Gallery/1.9.jpg',
     ];
 
     const BRANDS = [
+      'assets/images/brand/6.jpg', 
+      'assets/images/brand/7.jpg', 
+      'assets/images/brand/8.jpg',
       'assets/images/brand/1.jpg',
       'assets/images/brand/2.jpg',
       'assets/images/brand/3.jpg',
@@ -394,9 +395,9 @@
         'prices.service': 'Service',
         'prices.price': 'Price',
         'prices.popular': 'Popular Packages',
-        'contact.title': 'Ju Hair Salon',
+        'contact.title': 'TAOS Hairspace',
         'contact.blackbar': 'Find Us Here!',
-        'contact.subtitle': 'We are in the city center with easy parking.',
+        'contact.subtitle': 'Near Lotte Mart | Cityland.',
         'contact.openMap': 'Open in Google Maps',
         'booking.title': 'Book an appointment',
         'booking.name': 'Full name',
@@ -440,7 +441,7 @@
         'prices.popular': 'Gói nổi bật',
         'contact.title': 'TAOS Hairspace',
         'contact.blackbar': 'Find Us Here!',
-        'contact.subtitle': 'Ngay trung tâm, đậu xe thuận tiện.',
+        'contact.subtitle': 'Gần Lotte Mart | Cityland.',
         'contact.openMap': 'Mở Google Maps',
         'booking.title': 'Đặt lịch hẹn',
         'booking.name': 'Họ và tên',
